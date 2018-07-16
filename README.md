@@ -261,3 +261,7 @@ All the following led to no improvement.
 * re-provisioned the docker-machine using `docker-machine create -d virtualbox --virtualbox-memory "4096" --virtualbox-cpu-count "3" --virtualbox-disk-size "30000" default`
 * Used python interpreter version 3.6.5
 * rebooted OS
+
+## Resolution
+
+Solved by switching away from `docker toolbox` and using `docker mac` instead.
